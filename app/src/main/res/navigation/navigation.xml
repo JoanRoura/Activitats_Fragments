@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentInici">
+    <fragment
+        android:id="@+id/fragmentInici"
+        android:name="com.example.projecte_fragments.FragmentInici"
+        android:label="fragment_inici"
+        tools:layout="@layout/fragment_inici" >
+        <action
+            android:id="@+id/action_fragmentInici_to_fragmentLlistat"
+            app:destination="@id/fragmentLlistat" />
+        <action
+            android:id="@+id/action_fragmentInici_to_fragmentBoto"
+            app:destination="@id/fragmentBoto" />
+        <action
+            android:id="@+id/action_fragmentInici_to_fragmentBuit"
+            app:destination="@id/fragmentBuit" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLlistat"
+        android:name="com.example.projecte_fragments.FragmentLlistat"
+        android:label="fragment_llistat"
+        tools:layout="@layout/fragment_llistat" />
+    <fragment
+        android:id="@+id/fragmentBoto"
+        android:name="com.example.projecte_fragments.FragmentBoto"
+        android:label="fragment_boto"
+        tools:layout="@layout/fragment_boto" >
+        <action
+            android:id="@+id/action_fragmentBoto_to_fragmentTornar"
+            app:destination="@id/fragmentTornar" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentBuit"
+        android:name="com.example.projecte_fragments.FragmentBuit"
+        android:label="fragment_buit"
+        tools:layout="@layout/fragment_buit" />
+    <fragment
+        android:id="@+id/fragmentTornar"
+        android:name="com.example.projecte_fragments.FragmentTornar"
+        android:label="fragment_tornar"
+        tools:layout="@layout/fragment_tornar" />
+</navigation>

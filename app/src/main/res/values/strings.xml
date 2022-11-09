@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Projecte_Fragments</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_fragment_inici">Fragment Inici</string>
+    <string name="text_fragment_llistat">Fragment Llistat</string>
+    <string name="text_fragment_Boto">Fragment Boto</string>
+    <string name="text_fragment_Buit">Fragment Buit</string>
+    <string name="text_fragment_tornar">Fragment Tornar</string>
+
+    <string-array name="fragments_array">
+        <item>Fragment Llistat</item>
+        <item>Fragment Boto</item>
+        <item>Fragment Buit</item>
+        <item>Fragment Tornar</item>
+    </string-array>
+</resources>
