@@ -9,15 +9,27 @@
         android:layout_height="match_parent"
         tools:context=".FragmentInicialDos">
 
-        <Button
-            android:id="@+id/button"
+
+        <TextView
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="310dp"
+            android:layout_marginTop="120dp"
             android:text="@string/text_fragment_inici"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/fragments_spinner"
+            android:layout_width="207dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="208dp"
+            android:contentDescription="@string/text_spinner"
+            android:text="@string/fragments_spinner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

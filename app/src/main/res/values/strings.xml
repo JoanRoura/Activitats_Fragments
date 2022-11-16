@@ -4,13 +4,18 @@
     <string name="text_fragment_inici">Fragment Inici</string>
     <string name="text_fragment_llistat">Fragment Llistat</string>
     <string name="text_fragment_Boto">Fragment Boto</string>
-    <string name="text_fragment_Buit">Fragment Buit</string>
+    <string name="text_fragment_buit">Fragment Buit</string>
     <string name="text_fragment_tornar">Fragment Tornar</string>
+    <string name="fragments_spinner">Fragments</string>
+    <string name="text_spinner">Fragments</string>
+    <string name="menu_item">Fragment Informacio</string>
+    <string name="menu_item2">Fragment Buit</string>
+    <string name="menu_item3">Fragment Llistat</string>
+    <string name="text_fragment_informacio">Hola bona tarda</string>
 
     <string-array name="fragments_array">
         <item>Fragment Llistat</item>
         <item>Fragment Boto</item>
         <item>Fragment Buit</item>
-        <item>Fragment Tornar</item>
     </string-array>
 </resources>

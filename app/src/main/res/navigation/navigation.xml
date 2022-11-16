@@ -6,9 +6,9 @@
     app:startDestination="@id/fragmentInici">
     <fragment
         android:id="@+id/fragmentInici"
-        android:name="com.example.projecte_fragments.FragmentInici"
+        android:name="com.example.projecte_fragments.FragmentInicialDos"
         android:label="fragment_inici"
-        tools:layout="@layout/fragment_inici" >
+        tools:layout="@layout/fragment_inicial_dos" >
         <action
             android:id="@+id/action_fragmentInici_to_fragmentLlistat"
             app:destination="@id/fragmentLlistat" />
@@ -31,7 +31,8 @@
         tools:layout="@layout/fragment_boto" >
         <action
             android:id="@+id/action_fragmentBoto_to_fragmentTornar"
-            app:destination="@id/fragmentTornar" />
+            app:destination="@id/fragmentTornar"
+            app:popUpTo="@id/fragmentInici" />
     </fragment>
     <fragment
         android:id="@+id/fragmentBuit"
@@ -42,5 +43,14 @@
         android:id="@+id/fragmentTornar"
         android:name="com.example.projecte_fragments.FragmentTornar"
         android:label="fragment_tornar"
-        tools:layout="@layout/fragment_tornar" />
+        tools:layout="@layout/fragment_tornar" >
+        <action
+            android:id="@+id/action_fragmentTornar_to_fragmentInici"
+            app:destination="@id/fragmentInici" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentNavegacio"
+        android:name="com.example.projecte_fragments.fragment_informacio"
+        android:label="fragment_informacio"
+        tools:layout="@layout/fragment_informacio" />
 </navigation>
